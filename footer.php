@@ -1,10 +1,17 @@
                 <?php $options = get_option('adam_theme_options'); ?>
-
             </div>
+
 
             <!-- footer-area -->
             <footer id="footer-area">
 
+                <section class="footer">
+                    <div class="social-media">
+                        <a class="twitter" href="https://twitter.com/jimiofeden"></a>
+                        <a class="facebook" href="https://www.facebook.com/JimiofEden"></a>
+                        <a class="github" href="https://github.com/JimiofEden"></a>
+                    </div>
+                </section>
             </footer>
         </div>
 
@@ -23,6 +30,6 @@
         <![endif]-->
 
         <?php wp_footer(); ?>
-
+        </section>
     </body>
 </html>

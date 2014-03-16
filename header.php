@@ -2,9 +2,9 @@
 
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
 
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
@@ -26,24 +26,26 @@
 		<link href="<?php bloginfo('template_url');?>/js/lightbox/css/lightbox.css" rel="stylesheet" />
 
 		<?php wp_head(); ?>
-
-
 	</head>
 
-
-
 	<body <?php body_class(); ?>>
+		<section class="wrapper">
 
 			<!-- Header Start -->
 			<header id="header">
-				<h1>adam hollock</h1>
+				<h1><a href="/">Adam <span style="color: #393939">Hollock</span></a></h1><hr class="only-mobile">
 				<!-- navigation-block -->
 				<nav class="navigation-block">
 					<ul class="nav-stripe">
-						<a href="/"><li>About</li></a>
-						<a href="/media/"><li>Media</li></a>
-						<a href="/contact/"><li>Contact</li></a>
+						<li><a href="/">about</a></li>
+						<span>҉</span>
+						<li><a href="/projects/">projects</a></li>
+						<span>҉</span>
+						<li><a href="/blog/">blog</a></li>
+						<span>҉</span>
+						<li><a href="/contact/">contact</a></li>
 					</ul>
 				</nav>
 
 			</header>
+			<hr />
